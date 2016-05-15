@@ -1,2 +1,2 @@
-# impact-platform-codeception
+# Impact Platform: Codeception
 Docker container for Codeception
