@@ -44,8 +44,8 @@ RUN git clone https://github.com/phadej/igbinary.git && \
     echo "igbinary.compact_strings=Off" >> /etc/php5/mods-available/igbinary.ini && \
     php5enmod igbinary
 
-RUN mkdir -p /data
+RUN mkdir -p /data/www
 VOLUME ["/data"]
-WORKDIR /data
+WORKDIR /data/www
 
 ENTRYPOINT ["php", "vendor/bin/codecept"]
