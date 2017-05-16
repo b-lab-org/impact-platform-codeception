@@ -1,4 +1,6 @@
 # Impact Platform: Codeception
+This image is DEPRECATED. Please use [impact-platform-php](https://github.com/b-lab-org/impact-platform-php)
+
 [Docker](https://www.docker.com/) container for [Codeception](http://codeception.com/).
 
 ## Overview
